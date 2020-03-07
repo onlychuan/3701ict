@@ -48,6 +48,16 @@ struct ContentView: View {
                  .font(.largeTitle)
                 
             }
+            HStack {
+                           Text("Size:")
+                           .font(.largeTitle)
+                           .fontWeight(.bold)
+                           .padding(.horizontal, 11.0)
+                           
+                           Text("Lager")
+                            .font(.largeTitle)
+                           
+                       }
                        
         }
         
