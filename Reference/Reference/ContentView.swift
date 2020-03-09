@@ -11,7 +11,8 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack(alignment: .leading) {
-            Image("cat")
+            Image("cat@2")
+                .resizable()
             Text("Lily")
                 .font(.largeTitle)
                 .fontWeight(.bold)
@@ -48,21 +49,10 @@ struct ContentView: View {
                  .font(.largeTitle)
                 
             }
-            HStack {
-                           Text("Size:")
-                           .font(.largeTitle)
-                           .fontWeight(.bold)
-                           .padding(.horizontal, 11.0)
-                           
-                           Text("Lager")
-                            .font(.largeTitle)
-                           
-                       }
+         
                        
         }
         
-    
-                        
     }
 }
 
